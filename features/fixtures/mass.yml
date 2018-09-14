@@ -1,0 +1,6 @@
+TASK_LIST:
+  task_valida: 
+    nome: 'Tarefa {id}'
+    concluida?: false
+  task_invalida:
+    nome: ''
