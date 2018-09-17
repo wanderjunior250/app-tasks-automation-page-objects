@@ -42,7 +42,7 @@ class Home < BasePage
   end
 
   def remover_tarefas(quantidade)
-    for i in 0..quantidade-1 do
+    for i in quantidade-1..0 do
       @tarefas.delete(label_tarefas[i].text)
       remover_tarefa(i)
     end
